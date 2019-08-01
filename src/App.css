@@ -1,5 +1,22 @@
 .App {
   text-align: center;
+  background-image: url('https://scontent.fvno3-1.fna.fbcdn.net/v/t1.15752-9/67069810_454375572069055_1269060078875443200_n.jpg?_nc_cat=102&_nc_oc=AQkhXxMmu6KgZ3mHFycTmWN04BZ_QOf1M7L0o8txxvrtHpUBnk6uPnOt3e2hHTxxfrY&_nc_ht=scontent.fvno3-1.fna&oh=cc3a14d5c56a4731957e4038aad6f4cd&oe=5DDF4BC6');
+  height: 100vh;
+  background-size: cover;
+}
+
+p {
+  margin-top: 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  font-family: Montserrat;
+}
+
+h1 {
+  margin-top: 0;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+  font-family: Montserrat;
 }
 
 .App-logo {

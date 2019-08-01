@@ -23,10 +23,8 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
         {/* cia tekstas tavo busenos rodomas, tie '{ }' yra tam kad html atpazintu jog cia kazkoks kintamasis o ne tekstas tiesiog*/}
+        <h1>SunChaser Trakai</h1>
         <p>Times clicked: {this.state.count}</p> 
         {/* yra daxuja visokiu event handleriu pasigooglint galesi, siuo atveju rodau onClick, 
         tai tiesiog kai paspaudi mygtuka, jis iskviecia funkcija kuri yra viduje, 
